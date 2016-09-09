@@ -1,3 +1,6 @@
+﻿
+sudo apt-get update
+
 wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb
 sudo dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
 sudo apt-get update
@@ -18,3 +21,4 @@ echo 'export PATH="/usr/local/cuda/bin:"$PATH' >> .bashrc
 echo 'export LD_LIBRARY_PATH="/usr/local/cuda/lib64:/usr/local/cuda/lib:/usr/local/lib:"$LD_LIBRARY_PATH' >> .bashrc
 
 sudo reboot
+
