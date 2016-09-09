@@ -12,8 +12,8 @@ sudo apt-get install python-sklearn -y
 # htop
 sudo apt-get install htop -y
 
-# install OpenCV
-sudo bash ocv.sh
+# install OpenCV ... NOT
+# sudo bash ocv.sh
 
 # install CuDNN
 tar -xzvf cd_inst.tgz
