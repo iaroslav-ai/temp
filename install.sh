@@ -1,5 +1,6 @@
-﻿cp
-sudo apt-get update
+#!/bin/bash
+
+﻿sudo apt-get update
 sudo apt-get install git -y
 
 wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb
@@ -35,7 +36,7 @@ sudo apt-get install python-sklearn -y
 # htop
 sudo apt-get install htop -y
 
-cp temp
+cd temp
 
 # install OpenCV
 sudo bash ocv.sh
